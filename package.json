@@ -1,6 +1,6 @@
 {
   "name": "kazagumo_filters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A plugin that allows you to set filter faster in Kazagumo",
   "main": "dist/index.js",
   "author": "Acoder",
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/Acoder2561/kazagumo-filters.git"
   },
   "files": [
-    "*"
+    "dist"
   ],
   "homepage": "https://github.com/Acoder2561/kazagumo-filters",
   "devDependencies": {
