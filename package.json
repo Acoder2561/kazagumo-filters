@@ -1,14 +1,8 @@
 {
-  "name": "kazagumo_filter",
+  "name": "kazagumo_filters",
   "version": "1.0.0",
   "description": "A plugin that allows you to set filter faster in Kazagumo",
   "main": "dist/index.js",
-  "scripts": {
-    "build": "npm-run-all build:remove:discordjs build:typescript build:add:discordjs",
-    "build:remove:discordjs": "npm remove discord.js",
-    "build:add:discordjs": "npm i discord.js",
-    "build:typescript": "tsc"
-  },
   "author": "Acoder",
   "license": "ISC",
   "repository": {
@@ -16,7 +10,11 @@
     "url": "git+https://github.com/Acoder2561/kazagumo-filters.git"
   },
   "files": [
-    "dist"
+    "src/*.ts",
+    "json.json",
+    ".gitignore",
+    "README.md",
+    "package.json"
   ],
   "homepage": "https://github.com/Acoder2561/kazagumo-filters",
   "devDependencies": {
