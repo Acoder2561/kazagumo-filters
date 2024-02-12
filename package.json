@@ -13,12 +13,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Acoder2561/kazagumo-filter.git"
+    "url": "git+https://github.com/Acoder2561/kazagumo-filters.git"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/Acoder2561/kazagumo-filter",
+  "homepage": "https://github.com/Acoder2561/kazagumo-filters",
   "devDependencies": {
     "@types/node": "^18.11.9",
     "dotenv": "^16.0.3",
